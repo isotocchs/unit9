@@ -3,7 +3,7 @@ package com.columbus.unit9;
 //Inheritance - build a hierarchy of classes that share characteristics.
 
 //Superclass - parent
-//Subclass - child
+//Subclass - child (inherits all methods and attributes without duplicating code)
 
 //Reasons
 
@@ -24,5 +24,16 @@ package com.columbus.unit9;
 
 
 public class Unit9Main {
+	
+	public static void main(String[] args) {
+		
+		Unit9_1Musician musicMan = new Unit9_1Musician();
+		musicMan.perform();
+		//System.out.println(musicMan.getName());
+		//System.out.println(musicMan.getInstrument());
+		
+		
+	}
+	
 
 }
