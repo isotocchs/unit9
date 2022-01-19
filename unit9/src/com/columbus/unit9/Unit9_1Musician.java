@@ -14,10 +14,10 @@ public class Unit9_1Musician extends Unit9_1Performer{
 	}
 	
 	//Call constructor of parent
-//	public Unit9_1Musician(String n, int a, String inst) {
-//		super(n,a);
-//		intrument=inst;
-//	}
+	public Unit9_1Musician(String n, int a, String inst) {
+		super(n,a);
+		intrument=inst;
+	}
 	
 	
 	public String getInstrument() {

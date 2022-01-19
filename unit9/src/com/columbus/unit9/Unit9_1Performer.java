@@ -21,6 +21,10 @@ public class Unit9_1Performer {
 		return name;
 	}
 	
+	public int getAge() {
+		return age;
+	}
+	
 	public void practice() {
 		System.out.println("Honing my craft.");
 	}

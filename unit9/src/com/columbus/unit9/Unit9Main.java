@@ -27,10 +27,12 @@ public class Unit9Main {
 	
 	public static void main(String[] args) {
 		
-		Unit9_1Musician musicMan = new Unit9_1Musician();
+		Unit9_1Musician musicMan = new Unit9_1Musician("Tom",25,"Drums");
+		
 		musicMan.perform();
-		//System.out.println(musicMan.getName());
-		//System.out.println(musicMan.getInstrument());
+		System.out.println(musicMan.getName());
+		System.out.println(musicMan.getInstrument());
+		System.out.println(musicMan.getAge());
 		
 		
 	}
