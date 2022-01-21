@@ -30,10 +30,10 @@ public class Unit9_5References {
 	
 	//Array or ArrayList that contains different types of objects.
 	
-	WritingUtensil [] pencilCase = new WritingUtensil[3];
-	pencilCase[0] = new Pen();
-	pencilCase[1] = new gelPen();
-	pencilCase[2] = new Marker();
+//	WritingUtensil [] pencilCase = new WritingUtensil[3];
+//	pencilCase[0] = new Pen();
+//	pencilCase[1] = new gelPen();
+//	pencilCase[2] = new Marker();
 	
 	//Allows you to call different overriding methods.
 	
@@ -42,10 +42,10 @@ public class Unit9_5References {
 	//You can also use the superclass as a method parameter so that the 
 	//method can take in any of the subclass objects.
 	
-	public void displaytext(WritingUtensil wu, String text) {
-		//in this case wu can be any object from the superclass or any of its 
-		//subclasses (Marker, Pen of gelPen)
-	}
+//	public void displaytext(WritingUtensil wu, String text) {
+//		//in this case wu can be any object from the superclass or any of its 
+//		//subclasses (Marker, Pen of gelPen)
+//	}
 	
 	
 	
