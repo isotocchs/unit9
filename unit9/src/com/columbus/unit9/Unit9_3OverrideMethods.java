@@ -15,8 +15,9 @@ public class Unit9_3OverrideMethods extends Unit9_1Performer{
 	
 	//using super Keyword.
 	public void practice() {
+		super.perform();
 		System.out.println("I don't want to practice.");
-		super.practice();
+		
 	}
 	
 	

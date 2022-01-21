@@ -28,17 +28,18 @@ public class Unit9Main {
 	public static void main(String[] args) {
 		
 		Unit9_1Musician musicMan = new Unit9_1Musician("Tom",25,"Drums");
+		Unit9_1Performer performer = new Unit9_1Performer();
 		
-		System.out.println(musicMan.getName());
-		musicMan.perform();
-		musicMan.practice();
+		//System.out.println(musicMan.getName());
+		//musicMan.perform();
+		//musicMan.practice();
 		//System.out.println(musicMan.getInstrument());
 		//System.out.println(musicMan.getAge());
 		
 		Unit9_3OverrideMethods overrideMan = new Unit9_3OverrideMethods("Bob",45);
 		
 		System.out.println(overrideMan.getName());
-		overrideMan.perform();
+		//overrideMan.perform();
 		overrideMan.practice();
 		
 		
