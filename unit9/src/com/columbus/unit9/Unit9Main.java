@@ -1,5 +1,8 @@
 package com.columbus.unit9;
 
+import java.util.ArrayList;
+
+
 //Inheritance - build a hierarchy of classes that share characteristics.
 
 //Superclass - parent
@@ -38,14 +41,25 @@ public class Unit9Main {
 		
 		Unit9_3OverrideMethods overrideMan = new Unit9_3OverrideMethods("Bob",45);
 		
-		System.out.println(overrideMan.getName());
+		//System.out.println(overrideMan.getName());
 		//overrideMan.perform();
-		overrideMan.practice();
+		//overrideMan.practice();
+		
+		ArrayList<String> oneliners = new ArrayList<String>();
+		Unit9_6Entertainer Sally = new Unit9_6Comedian("Satire",oneliners);
+		//Is this valid?
+		System.out.println(Sally.getTalent());
+		//Why is this not valid?
+		//Compile time (Unit9_6Entertainer) vs Run time (Unit9_6Comedian)
+		//System.out.println(Sally.tellJoke());
 		
 		
 		
+		
+		
+		//We fix it by casting, careful with parenthesis
+		//System.out.println(((Unit9_6Comedian) Sally).tellJoke());
 		
 	}
-	
 
 }
