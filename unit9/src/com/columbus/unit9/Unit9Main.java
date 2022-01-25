@@ -34,7 +34,7 @@ public class Unit9Main {
 		Unit9_1Performer performer = new Unit9_1Performer();
 		
 		//System.out.println(musicMan.getName());
-		musicMan.playInstrument();
+		//musicMan.playInstrument();
 		//musicMan.practice();
 		//System.out.println(musicMan.getInstrument());
 		//System.out.println(musicMan.getAge());
@@ -59,6 +59,12 @@ public class Unit9Main {
 		
 		//We fix it by casting, careful with parenthesis
 		//System.out.println(((Unit9_6Comedian) Sally).tellJoke());
+		
+		
+		Unit9_7ObjectSuperclass objectStuff = new Unit9_7ObjectSuperclass(10);
+		System.out.println(objectStuff);
+		System.out.println(objectStuff.toString());
+		
 		
 	}
 }
