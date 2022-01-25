@@ -65,6 +65,13 @@ public class Unit9Main {
 		System.out.println(objectStuff);
 		System.out.println(objectStuff.toString());
 		
+		Unit9_7ObjectSuperclass2 moreObjectStuff = new Unit9_7ObjectSuperclass2(25, "Bob");
+		System.out.println(moreObjectStuff);
+		
+		Unit9_7ObjectSuperclass objectStuff2 = new Unit9_7ObjectSuperclass(10);
+		//by default .equals checks if the two variables refer to the same object.
+		// We want it to check the info inside the object so we override.
+		System.out.println(objectStuff.equals(objectStuff2));
 		
 	}
 }
