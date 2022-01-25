@@ -17,6 +17,8 @@ public class Unit9_1Musician extends Unit9_1Performer{
 	public Unit9_1Musician(String n, int a, String inst) {
 		super(n,a);
 		intrument=inst;
+		
+		
 	}
 	
 	public Unit9_1Musician(String n, int a) {
@@ -33,9 +35,13 @@ public class Unit9_1Musician extends Unit9_1Performer{
 		return intrument;
 	}
 	
+	public void perform() {
+		System.out.println("I am performing! Musician");
+	}
+	
 	public void playInstrument() {
-		
-		System.out.println("I am playing my instrument!");
+		System.out.println("I am playing my instrument! Musician");
+		super.practice();
 	}
 
 }

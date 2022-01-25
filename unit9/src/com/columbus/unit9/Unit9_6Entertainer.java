@@ -9,5 +9,7 @@ public class Unit9_6Entertainer {
 	public String getTalent() {
 		return talent;
 	}
+	
+	
 
 }

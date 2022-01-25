@@ -34,7 +34,7 @@ public class Unit9Main {
 		Unit9_1Performer performer = new Unit9_1Performer();
 		
 		//System.out.println(musicMan.getName());
-		//musicMan.perform();
+		musicMan.playInstrument();
 		//musicMan.practice();
 		//System.out.println(musicMan.getInstrument());
 		//System.out.println(musicMan.getAge());
@@ -48,7 +48,7 @@ public class Unit9Main {
 		ArrayList<String> oneliners = new ArrayList<String>();
 		Unit9_6Entertainer Sally = new Unit9_6Comedian("Satire",oneliners);
 		//Is this valid?
-		System.out.println(Sally.getTalent());
+		//System.out.println(Sally.getTalent());
 		//Why is this not valid?
 		//Compile time (Unit9_6Entertainer) vs Run time (Unit9_6Comedian)
 		//System.out.println(Sally.tellJoke());
@@ -61,5 +61,4 @@ public class Unit9Main {
 		//System.out.println(((Unit9_6Comedian) Sally).tellJoke());
 		
 	}
-
 }

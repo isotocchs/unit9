@@ -24,6 +24,7 @@ public class Unit9_5References {
 	WritingUtensil mar2 = new Pen(); //Pen "is-a" WritingUtensil
 	Pen mar3 = new gelPen(); ////gelPen "is-a" Pen
 	WritingUtensil mar4 = new gelPen(); //gelPen "is-a" WritingUtensil
+	//gelPen mar5 = new WritingUtensil();
 	
 	
 	//Why?
@@ -42,10 +43,10 @@ public class Unit9_5References {
 	//You can also use the superclass as a method parameter so that the 
 	//method can take in any of the subclass objects.
 	
-//	public void displaytext(WritingUtensil wu, String text) {
-//		//in this case wu can be any object from the superclass or any of its 
-//		//subclasses (Marker, Pen of gelPen)
-//	}
+	public void displaytext(Pen wu, String text) {
+		//in this case wu can be any object from the superclass or any of its 
+		//subclasses (Marker, Pen of gelPen)
+	}
 	
 	
 	

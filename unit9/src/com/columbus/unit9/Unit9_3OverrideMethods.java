@@ -4,6 +4,7 @@ public class Unit9_3OverrideMethods extends Unit9_1Performer{
 	
 	//Same method name as the one in the Superclass performer
 	
+	
 	public Unit9_3OverrideMethods(String n, int a) {
 		super(n,a);	
 	}
@@ -15,8 +16,9 @@ public class Unit9_3OverrideMethods extends Unit9_1Performer{
 	
 	//using super Keyword.
 	public void practice() {
-		super.perform();
+		perform();
 		System.out.println("I don't want to practice.");
+		super.perform();
 		
 	}
 	

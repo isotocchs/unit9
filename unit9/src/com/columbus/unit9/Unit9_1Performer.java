@@ -26,12 +26,12 @@ public class Unit9_1Performer {
 	}
 	
 	public void practice() {
-		System.out.println("Honing my craft.");
+		System.out.println("Honing my craft. Performer");
 	}
 	
 	public void perform() {
 		
-		System.out.println("I am performing!");
+		System.out.println("I am performing! Performer");
 	}
 
 }
