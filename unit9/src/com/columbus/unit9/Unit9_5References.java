@@ -24,7 +24,7 @@ public class Unit9_5References {
 	WritingUtensil mar2 = new Pen(); //Pen "is-a" WritingUtensil
 	Pen mar3 = new gelPen(); ////gelPen "is-a" Pen
 	WritingUtensil mar4 = new gelPen(); //gelPen "is-a" WritingUtensil
-	//gelPen mar5 = new WritingUtensil();
+	//
 	
 	
 	//Why?
