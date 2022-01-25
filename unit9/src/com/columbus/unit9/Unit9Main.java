@@ -74,5 +74,7 @@ public class Unit9Main {
 		
 		//System.out.println(objectStuff.equals(objectStuff2));
 		
+		//How would I add the equals method to Unit9_7ObjectSuperclass2 to compare names too?
+		
 	}
 }
