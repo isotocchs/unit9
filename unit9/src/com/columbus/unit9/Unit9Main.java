@@ -62,8 +62,9 @@ public class Unit9Main {
 		
 		
 		Unit9_7ObjectSuperclass objectStuff = new Unit9_7ObjectSuperclass(10);
-		System.out.println(objectStuff);
-		System.out.println(objectStuff.toString());
+		//System.out.println(objectStuff);
+		//System.out.println(objectStuff.toString());
+		//String apple = "Testing";
 		
 		Unit9_7ObjectSuperclass2 moreObjectStuff = new Unit9_7ObjectSuperclass2(25, "Bob");
 		//System.out.println(moreObjectStuff);
@@ -72,9 +73,10 @@ public class Unit9Main {
 		//by default .equals checks if the two variables refer to the same object.
 		// We want it to check the info inside the object so we override.
 		
-		//System.out.println(objectStuff.equals(objectStuff2));
+		//System.out.println(objectStuff.equals(apple));
 		
 		//How would I add the equals method to Unit9_7ObjectSuperclass2 to compare names too?
-		
+		Base d1 = new Derived();
+		d1.calc(2);
 	}
 }
