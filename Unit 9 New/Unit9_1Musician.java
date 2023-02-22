@@ -25,8 +25,7 @@ public class Unit9_1Musician extends Unit9_1Performer{
 	}
 	
 	public String getName() {
-		super.getName();
-		return intrument;
+		return super.getName();
 		
 	}
 	
@@ -40,7 +39,7 @@ public class Unit9_1Musician extends Unit9_1Performer{
 	
 	public void playInstrument() {
 		System.out.println("I am playing my instrument! Musician");
-		super.practice();
+		// super.practice();
 	}
 
 }

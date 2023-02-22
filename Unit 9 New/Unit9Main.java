@@ -28,15 +28,21 @@ import java.util.ArrayList;
 public class Unit9Main {
 	
 	public static void main(String[] args) {
+
+		System.out.println("-------------------------------------------------");
 		
 		Unit9_1Musician musicMan = new Unit9_1Musician("Tom",25,"Drums");
+		Unit9_1Musician musicMan2 = new Unit9_1Musician("Drums");
 		Unit9_1Performer performer = new Unit9_1Performer();
+
+		Unit9_1Singer singMan = new Unit9_1Singer("taylor",33,"throat","anti hero");
+
 		
-		//System.out.println(musicMan.getName());
-		//musicMan.playInstrument();
-		//musicMan.practice();
-		//System.out.println(musicMan.getInstrument());
-		//System.out.println(musicMan.getAge());
+		System.out.println(singMan.getName());
+singMan.perform();	
+// performer.perform();
+		// System.out.println(musicMan.getInstrument());
+		// System.out.println(musicMan2.getAge());
 		
 		Unit9_3OverrideMethods overrideMan = new Unit9_3OverrideMethods("Bob",45);
 		
@@ -77,5 +83,8 @@ public class Unit9Main {
 		//How would I add the equals method to Unit9_7ObjectSuperclass2 to compare names too?
 		// Base d1 = new Derived();
 		// d1.calc(2);
+
+		System.out.println("-------------------------------------------------");
+
 	}
 }
