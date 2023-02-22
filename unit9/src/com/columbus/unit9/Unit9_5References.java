@@ -12,7 +12,11 @@ public class Unit9_5References {
 	
 	
 	public class WritingUtensil{}
-	public class Marker extends WritingUtensil{}
+	public class Marker extends WritingUtensil{
+		public void apple () {
+			System.out.print("Test");
+		}
+	}
 	public class Pen extends WritingUtensil{}
 	public class gelPen extends Pen{}
 	
@@ -25,6 +29,7 @@ public class Unit9_5References {
 	Pen mar3 = new gelPen(); ////gelPen "is-a" Pen
 	WritingUtensil mar4 = new gelPen(); //gelPen "is-a" WritingUtensil
 	//
+	
 	
 	
 	//Why?

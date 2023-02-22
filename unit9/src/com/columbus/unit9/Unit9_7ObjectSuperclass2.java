@@ -15,14 +15,14 @@ public class Unit9_7ObjectSuperclass2 extends Unit9_7ObjectSuperclass{
 	public int getAge() {
 		return super.getAge();
 	}
-	public String toString() {
-		String fromSuper = super.toString(); // get the age info
-		fromSuper +="\n"; // Add line
-		fromSuper += "Name: "+name; // Add Name info
-		return fromSuper;
-		
-		
-	}
+//	public String toString() {
+//		String fromSuper = super.toString(); // get the age info
+//		fromSuper +="\n"; // Add line
+//		fromSuper += "Name: "+name; // Add Name info
+//		return fromSuper;
+//		
+//		
+//	}
 	
 	public boolean equals(Object other) {
 		

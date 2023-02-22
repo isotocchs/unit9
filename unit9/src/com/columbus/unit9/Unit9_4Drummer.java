@@ -10,7 +10,7 @@ public class Unit9_4Drummer extends Unit9_1Musician{
 	}
 	
 	public String getName() {
-		super.getName();
+		name = super.getName();
 		return name;
 	}
 

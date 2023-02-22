@@ -30,8 +30,16 @@ public class Unit9Main {
 	
 	public static void main(String[] args) {
 		
-		Unit9_1Musician musicMan = new Unit9_1Musician("Tom",25,"Drums");
-		Unit9_1Performer performer = new Unit9_1Performer();
+		Animal x = new Zebra();
+		x.getA();
+//		String str = new String("hi");
+		x.writeMe(x);
+		
+		Unit9_4Drummer drumtest= new Unit9_4Drummer("Apple", 36);
+//		System.out.println(drumtest.getName());
+		
+//		Unit9_1Musician musicMan = new Unit9_1Musician("Tom",25,"Drums");
+//		Unit9_1Performer performer = new Unit9_1Performer();
 		
 		//System.out.println(musicMan.getName());
 		//musicMan.playInstrument();
@@ -39,14 +47,14 @@ public class Unit9Main {
 		//System.out.println(musicMan.getInstrument());
 		//System.out.println(musicMan.getAge());
 		
-		Unit9_3OverrideMethods overrideMan = new Unit9_3OverrideMethods("Bob",45);
+//		Unit9_3OverrideMethods overrideMan = new Unit9_3OverrideMethods("Bob",45);
 		
 		//System.out.println(overrideMan.getName());
 		//overrideMan.perform();
 		//overrideMan.practice();
 		
-		ArrayList<String> oneliners = new ArrayList<String>();
-		Unit9_6Entertainer Sally = new Unit9_6Comedian("Satire",oneliners);
+//		ArrayList<String> oneliners = new ArrayList<String>();
+//		Unit9_6Entertainer Sally = new Unit9_6Comedian("Satire",oneliners);
 		//Is this valid?
 		//System.out.println(Sally.getTalent());
 		//Why is this not valid?
@@ -61,22 +69,25 @@ public class Unit9Main {
 		//System.out.println(((Unit9_6Comedian) Sally).tellJoke());
 		
 		
-		Unit9_7ObjectSuperclass objectStuff = new Unit9_7ObjectSuperclass(10);
+		//Unit9_7ObjectSuperclass objectStuff = new Unit9_7ObjectSuperclass(10);
 		//System.out.println(objectStuff);
 		//System.out.println(objectStuff.toString());
 		//String apple = "Testing";
+//		
+//		Unit9_7ObjectSuperclass2 moreObjectStuff = new Unit9_7ObjectSuperclass2(25, "Bob");
+//		System.out.println(moreObjectStuff);
+//		
+//		Unit9_7ObjectSuperclass3 moreTesting = new Unit9_7ObjectSuperclass3(13, "Tom");
+//		System.out.println(moreTesting);
 		
-		Unit9_7ObjectSuperclass2 moreObjectStuff = new Unit9_7ObjectSuperclass2(25, "Bob");
-		//System.out.println(moreObjectStuff);
-		
-		Unit9_7ObjectSuperclass objectStuff2 = new Unit9_7ObjectSuperclass(10);
+		//Unit9_7ObjectSuperclass objectStuff2 = new Unit9_7ObjectSuperclass(10);
 		//by default .equals checks if the two variables refer to the same object.
 		// We want it to check the info inside the object so we override.
 		
 		//System.out.println(objectStuff.equals(apple));
 		
 		//How would I add the equals method to Unit9_7ObjectSuperclass2 to compare names too?
-		Base d1 = new Derived();
-		d1.calc(2);
+		//Base d1 = new Derived();
+		//d1.calc(2);
 	}
 }

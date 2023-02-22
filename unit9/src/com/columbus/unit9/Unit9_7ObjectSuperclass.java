@@ -20,9 +20,9 @@ public class Unit9_7ObjectSuperclass{
 		return age;
 		
 	}
-	public String toString(int a) {
+	public String toString() {
 		return "Age: "+age;
-		}
+	}
 	
 	public boolean equals(Object other) {
 		//Use instance of to make sure the objects you are comparing are of the same class.
