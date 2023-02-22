@@ -33,22 +33,24 @@ public class Unit9Main {
 		
 		Unit9_1Musician musicMan = new Unit9_1Musician("Tom",25,"Drums");
 		Unit9_1Musician musicMan2 = new Unit9_1Musician("Drums");
+		
 		Unit9_1Performer performer = new Unit9_1Performer();
 
 		Unit9_1Singer singMan = new Unit9_1Singer("taylor",33,"throat","anti hero");
 
 		
-		System.out.println(singMan.getName());
-singMan.perform();	
+		// System.out.println(singMan.getName());
+// singMan.perform();	
 // performer.perform();
 		// System.out.println(musicMan.getInstrument());
 		// System.out.println(musicMan2.getAge());
 		
 		Unit9_3OverrideMethods overrideMan = new Unit9_3OverrideMethods("Bob",45);
 		
-		//System.out.println(overrideMan.getName());
-		//overrideMan.perform();
-		//overrideMan.practice();
+		// System.out.println(overrideMan.getName());
+		// System.out.println(overrideMan.name);
+		// overrideMan.perform();
+		// overrideMan.practice();
 		
 		ArrayList<String> oneliners = new ArrayList<String>();
 		Unit9_6Entertainer Sally = new Unit9_6Comedian("Satire",oneliners);

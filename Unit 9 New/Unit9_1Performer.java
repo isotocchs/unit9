@@ -1,7 +1,7 @@
 
 public class Unit9_1Performer {
 	
-	private String name;
+	public String name;
 	private int age;
 	
 	//Constructors are not inherited
