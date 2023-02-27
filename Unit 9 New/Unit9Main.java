@@ -31,12 +31,33 @@ public class Unit9Main {
 
 		System.out.println("-------------------------------------------------");
 		
-		Unit9_1Musician musicMan = new Unit9_1Musician("Tom",25,"Drums");
-		Unit9_1Musician musicMan2 = new Unit9_1Musician("Drums");
-		
 		Unit9_1Performer performer = new Unit9_1Performer();
+		// System.out.println(performer.getName());
+		Unit9_1Performer performer2 = new Unit9_1Performer("Guy",16);
+		// System.out.println(performer2.getName());
+		// performer2.perform();
 
-		Unit9_1Singer singMan = new Unit9_1Singer("taylor",33,"throat","anti hero");
+		Unit9_1Musician musicMan = new Unit9_1Musician("Gus",21, "Guitar");
+		// System.out.println(musicMan.getName());
+		// System.out.println(musicMan.getInstrument());
+		// musicMan.perform();
+
+		Unit9_1Singer singMan = new Unit9_1Singer("John Elway",54,"Sax","California Girl");
+		// System.out.println(singMan.name);
+		// System.out.println(singMan.getInstrument());
+		// singMan.perform();
+		// singMan.practice();
+		// singMan.sing();
+
+		// System.out.println(singMan.name);
+
+
+
+
+
+
+
+		// Unit9_1Singer singMan = new Unit9_1Singer("taylor",33,"throat","anti hero");
 
 		
 		// System.out.println(singMan.getName());
@@ -53,12 +74,18 @@ public class Unit9Main {
 		// overrideMan.practice();
 		
 		ArrayList<String> oneliners = new ArrayList<String>();
+		oneliners.add("this is funny");
+		oneliners.add("Bob Stan");
+		oneliners.add("applesauce");
+		oneliners.add("something else");
+		oneliners.add("google fiber");
+
 		Unit9_6Entertainer Sally = new Unit9_6Comedian("Satire",oneliners);
 		//Is this valid?
-		//System.out.println(Sally.getTalent());
+		// System.out.println(Sally.getTalent());
 		//Why is this not valid?
 		//Compile time (Unit9_6Entertainer) vs Run time (Unit9_6Comedian)
-		//System.out.println(Sally.tellJoke());
+		// System.out.println(Sally.tellJoke());
 		
 		
 		
