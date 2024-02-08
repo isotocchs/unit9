@@ -23,6 +23,9 @@ public class Unit9_1Performer {
 	public int getAge() {
 		return age;
 	}
+	public String getSong(){
+		return "Performer test";
+	}
 	
 	public void practice() {
 		System.out.println("Honing my craft. Performer");

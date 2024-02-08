@@ -33,26 +33,39 @@ public class Unit9Main {
 		
 		Unit9_1Performer performer = new Unit9_1Performer();
 		// System.out.println(performer.getName());
+
+
 		Unit9_1Performer performer2 = new Unit9_1Performer("Guy",16);
 		// System.out.println(performer2.getName());
 		// performer2.perform();
+
+		Unit9_1Musician musicManDef = new Unit9_1Musician("xylophone");
+		// System.out.println(musicManDef.getAge());
 
 		Unit9_1Musician musicMan = new Unit9_1Musician("Gus",21, "Guitar");
 		// System.out.println(musicMan.getName());
 		// System.out.println(musicMan.getInstrument());
 		// musicMan.perform();
+		// musicMan.practice();
 
-		Unit9_1Singer singMan = new Unit9_1Singer("John Elway",54,"Sax","California Girl");
-		Unit9_1Singer singMan2 = new Unit9_1Singer();
-		// System.out.println(singMan);
+		Unit9_1Singer singMan = new Unit9_1Singer("John Elway",54,"Sax");
+		// Unit9_1Singer singMan2 = new Unit9_1Singer();
+		// System.out.println(singMan.getInstrument());
+		// singMan.sing();
+		// singMan.perform();
 
-		Unit9_1Performer singMan3 = new Unit9_1Singer();
+		Unit9_1Performer singMan3 = new Unit9_1Singer("John Elway",67,"Drums");
 		//I can cast singman 2 as a singer to make sure it compiles right.
+		// System.out.println(singMan3.getName());
+		// Unit9_1Singer singTest = new Unit9_1Performer();
+
 		
 		Unit9_1Performer [] arrayPer = new Unit9_1Performer[4];
-		arrayPer[0]= new Unit9_1Singer(); 
+		arrayPer[0]= new Unit9_1Singer("Bob Marley",80,"Banjo","Buffalo Soldier"); 
 		arrayPer[2]= new Unit9_1Musician();
 		arrayPer[2]= new Unit9_1Performer();
+		System.out.println(arrayPer[0].getSong());
+		arrayPer[0].perform();
 
 
 
