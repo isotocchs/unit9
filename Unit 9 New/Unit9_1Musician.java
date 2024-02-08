@@ -27,6 +27,14 @@ public class Unit9_1Musician extends Unit9_1Performer{
 	public Unit9_1Musician(String n, int a) {
 		super(n,a);
 	}
+
+	public String getName() {
+		return super.getName();
+	}
+
+	public String getName(int a) {
+		return super.getName();
+	}
 	
 	public String getMusicianName() {
 		return super.getName();

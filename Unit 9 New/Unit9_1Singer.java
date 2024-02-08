@@ -17,5 +17,9 @@ public class Unit9_1Singer extends Unit9_1Musician{
     public void sing(){
         System.out.println("I'm singing my favorite song "+favSong);
     }
+
+    public String toString(int nummber){
+        return "Jamba Juice stores: "+nummber;
+    }
     
 }

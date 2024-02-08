@@ -43,6 +43,20 @@ public class Unit9Main {
 		// musicMan.perform();
 
 		Unit9_1Singer singMan = new Unit9_1Singer("John Elway",54,"Sax","California Girl");
+		Unit9_1Singer singMan2 = new Unit9_1Singer();
+		// System.out.println(singMan);
+
+		Unit9_1Performer singMan3 = new Unit9_1Singer();
+		//I can cast singman 2 as a singer to make sure it compiles right.
+		
+		Unit9_1Performer [] arrayPer = new Unit9_1Performer[4];
+		arrayPer[0]= new Unit9_1Singer(); 
+		arrayPer[2]= new Unit9_1Musician();
+		arrayPer[2]= new Unit9_1Performer();
+
+
+
+		
 		// System.out.println(singMan.name);
 		// System.out.println(singMan.getInstrument());
 		// singMan.perform();
@@ -80,6 +94,8 @@ public class Unit9Main {
 		oneliners.add("something else");
 		oneliners.add("google fiber");
 
+
+
 		Unit9_6Entertainer Sally = new Unit9_6Comedian("Satire",oneliners);
 		//Is this valid?
 		// System.out.println(Sally.getTalent());
@@ -96,18 +112,27 @@ public class Unit9Main {
 		
 		
 		Unit9_7ObjectSuperclass objectStuff = new Unit9_7ObjectSuperclass(10);
-		//System.out.println(objectStuff);
-		//System.out.println(objectStuff.toString());
-		//String apple = "Testing";
+		
+		// String something = objectStuff.toString();
+		// System.out.println(objectStuff);
+		// System.out.println(objectStuff.toString());
+		// System.out.println(something);
+		// System.out.println(Sally.equals(Sally));
+
+		String apple = "Testing";
+		int a = 456;
+
+		// objectStuff.equals(a);
+
 		
 		Unit9_7ObjectSuperclass2 moreObjectStuff = new Unit9_7ObjectSuperclass2(25, "Bob");
-		//System.out.println(moreObjectStuff);
+		// System.out.println(moreObjectStuff);
 		
 		Unit9_7ObjectSuperclass objectStuff2 = new Unit9_7ObjectSuperclass(10);
 		//by default .equals checks if the two variables refer to the same object.
 		// We want it to check the info inside the object so we override.
 		
-		//System.out.println(objectStuff.equals(apple));
+		// System.out.println(objectStuff.equals(a));
 		
 		//How would I add the equals method to Unit9_7ObjectSuperclass2 to compare names too?
 		// Base d1 = new Derived();
