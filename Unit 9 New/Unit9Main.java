@@ -61,11 +61,11 @@ public class Unit9Main {
 
 		
 		Unit9_1Performer [] arrayPer = new Unit9_1Performer[4];
-		arrayPer[0]= new Unit9_1Singer("Bob Marley",80,"Banjo","Buffalo Soldier"); 
-		arrayPer[2]= new Unit9_1Musician();
-		arrayPer[2]= new Unit9_1Performer();
-		System.out.println(arrayPer[0].getSong());
-		arrayPer[0].perform();
+		// arrayPer[0]= new Unit9_1Singer("Bob Marley",80,"Banjo","Buffalo Soldier"); 
+		// arrayPer[2]= new Unit9_1Musician();
+		// arrayPer[2]= new Unit9_1Performer();
+		// System.out.println(arrayPer[0].getSong());
+		// arrayPer[0].perform();
 
 
 
@@ -97,7 +97,7 @@ public class Unit9Main {
 		
 		// System.out.println(overrideMan.getName());
 		// System.out.println(overrideMan.name);
-		// overrideMan.perform();
+		overrideMan.perform();
 		// overrideMan.practice();
 		
 		ArrayList<String> oneliners = new ArrayList<String>();
