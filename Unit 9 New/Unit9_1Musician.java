@@ -6,7 +6,6 @@ public class Unit9_1Musician extends Unit9_1Performer{
 	
 	//Constructors are not inherited. Calls default constructor of superclass
 	public Unit9_1Musician() {
-		// super();
 		intrument="Piano";
 	}
 	
@@ -49,11 +48,12 @@ public class Unit9_1Musician extends Unit9_1Performer{
 	
 	public void perform() {
 		System.out.println("I am performing! Musician");
+		// super.perform();
 	}
 	
 	public void playInstrument() {
 		System.out.println("I am playing my instrument! Musician");
-		// super.practice();
+		super.practice();
 	}
 
 }

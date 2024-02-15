@@ -6,7 +6,7 @@ public class Unit9_6Entertainer {
 		talent=t;
 	}
 	public String getTalent() {
-		return talent;
+		return "sjkldfghlksdfhgkjsdfg";
 	}
 
 	public String tellJoke() {

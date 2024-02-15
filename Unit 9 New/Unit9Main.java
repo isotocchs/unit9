@@ -39,6 +39,17 @@ public class Unit9Main {
 		// System.out.println(performer2.getName());
 		// performer2.perform();
 
+
+
+		Unit9_1Musician musictestguy = new Unit9_1Musician("Paul", 30, "Bass");
+		// System.out.println(musictestguy.getAge());
+
+		Unit9_1Singer singerguy = new Unit9_1Singer();
+		// System.out.println(singerguy.getAge());
+		// singerguy.perform();
+
+
+
 		Unit9_1Musician musicManDef = new Unit9_1Musician("xylophone");
 		// System.out.println(musicManDef.getAge());
 
@@ -52,6 +63,7 @@ public class Unit9Main {
 		// Unit9_1Singer singMan2 = new Unit9_1Singer();
 		// System.out.println(singMan.getInstrument());
 		// singMan.sing();
+		// singMan.perform();
 		// singMan.perform();
 
 		Unit9_1Performer singMan3 = new Unit9_1Singer("John Elway",67,"Drums");
@@ -97,7 +109,7 @@ public class Unit9Main {
 		
 		// System.out.println(overrideMan.getName());
 		// System.out.println(overrideMan.name);
-		overrideMan.perform();
+		// overrideMan.perform();
 		// overrideMan.practice();
 		
 		ArrayList<String> oneliners = new ArrayList<String>();
@@ -110,11 +122,25 @@ public class Unit9Main {
 
 
 		Unit9_6Entertainer Sally = new Unit9_6Comedian("Satire",oneliners);
-		//Is this valid?
-		// System.out.println(Sally.getTalent());
-		//Why is this not valid?
+		System.out.println(Sally.getTalent());
+
+		Unit9_6Comedian Sally2 = new Unit9_6Comedian("Stuff", oneliners);
+		System.out.println(Sally2.getTalent());
+
 		//Compile time (Unit9_6Entertainer) vs Run time (Unit9_6Comedian)
+		
+		
+		
 		// System.out.println(Sally.tellJoke());
+
+
+
+
+
+
+
+		//Compile time (Unit9_6Entertainer) vs Run time (Unit9_6Comedian)
+
 		
 		
 		

@@ -30,9 +30,10 @@ public class Unit9_1Singer extends Unit9_1Musician{
         return "Jamba Juice stores: "+nummber;
     }
 
-    public void perform() {
+    // public void perform() {
 		
-		System.out.println("I am performing! Singer");
-	}
+	// 	System.out.println("I am performing! Singer");
+    //     // super.perform();
+	// }
     
 }

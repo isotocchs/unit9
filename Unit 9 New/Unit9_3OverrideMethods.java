@@ -10,11 +10,11 @@ public class Unit9_3OverrideMethods extends Unit9_1Performer{
 		// name = "Apples";
 	}
 	
-	public void perform() {
-		System.out.println("Overriding this from Performer.");
+	// public void perform() {
+	// 	System.out.println("Overriding this from Performer.");
 		
 		
-	}
+	// }
 	
 	
 	//using super Keyword.
@@ -22,10 +22,14 @@ public class Unit9_3OverrideMethods extends Unit9_1Performer{
 		perform();
 		System.out.println("I don't want to practice.");
 		System.out.println(super.getAge());
-		// super.perform();
+		super.perform();
 		
 	}
-	
+	public void perform() {
+		System.out.println("Overriding this from Performer.");
+		
+		
+	}
 	
 
 }

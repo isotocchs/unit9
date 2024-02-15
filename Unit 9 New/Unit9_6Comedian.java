@@ -10,7 +10,7 @@ public class Unit9_6Comedian extends Unit9_6Entertainer{
 	}
 	public String getTalent() {
 		//you can use super methods
-		return "Comedy Style: "+super.getTalent();
+		return "Comedy Style: " + super.getTalent();
 	}
 	
 	public String tellJoke() {
